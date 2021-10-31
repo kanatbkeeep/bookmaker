@@ -29,7 +29,7 @@
 
 <section class="loginBox">
     <h1>Login</h1>
-    <form>
+    <form action="/login" method="post">
         <input type="email" id="email" name="email" placeholder="E-mail">
         <input type="password" id="password" name="password" placeholder="Password">
         <button>Login</button>
