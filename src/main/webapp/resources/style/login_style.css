@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+
+nav {
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    margin: 0;
+}
+
+.singIn {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 21px;
+    border-radius: 20px;
+    padding: 5px 20px;
+    transition: background-color .3s;
+}
+
+.singIn:hover {
+    background-color: #dadbde;
+}
+
+.loginBox {
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    left: calc(50% - 150px);
+    top: 150px;
+}
+
+.loginBox form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.loginBox input {
+    margin: 15px 0;
+    padding: 10px 30px;
+    border-radius: 20px;
+    outline:none;
+    background-color: #eaeaea;
+    border: none;
+    width: 100%;
+}
+
+.loginBox button {
+    margin-top: 15px;
+    color: white;
+    background-color: #242424;
+    padding: 10px 30px;
+    border-radius: 20px;
+    outline: 0;
+    border: none;
+    transition: background-color .3s;
+}
+
+.loginBox button:hover {
+    background-color: black;
+}
