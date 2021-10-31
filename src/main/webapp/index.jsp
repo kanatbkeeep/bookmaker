@@ -25,6 +25,9 @@
         <div class="navSide">
             <a href="login.jsp" class="singIn">Login</a>
             <a href="register.jsp" class="singIn">Register</a>
+            <form action="/logout" method="post">
+                <input type="submit" value="Sign Out"/>
+            </form>
         </div>
     </nav>
 </header>
